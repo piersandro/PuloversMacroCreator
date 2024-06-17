@@ -1,4 +1,4 @@
-﻿Lang_it
+Lang_it
 		
 		; Italian [Revised by matteo]
 		
@@ -6,26 +6,26 @@
 	m_Lang001 =	&File
 	m_Lang002 =	&Macro
 	m_Lang003 =	&Comandi
-	m_Lang004 =	F&unzione
+	m_Lang004 =	F&unzioni
 	m_Lang005 =	M&odifica
-	m_Lang006 =	&Selezionare
+	m_Lang006 =	&Seleziona
 	m_Lang007 =	&Visualizza
 	m_Lang008 =	O&pzioni
-	m_Lang009 =	&Donare
+	m_Lang009 =	&Dona
 	m_Lang010 =	&Aiuto
 		
 ; 02. File Sub Menu		
 	f_Lang001 =	&Nuovo
-	f_Lang002 =	&Aperto
-	f_Lang003 =	&Salvare
+	f_Lang002 =	&Apri
+	f_Lang003 =	&Salva
 	f_Lang004 =	Sa&lva con nome
 	f_Lang005 =	&File Recenti
 	f_Lang006 =	&Esporta in AHK
 	f_Lang007 =	An&teprima Script
 	f_Lang008 =	&Modifica Script
 	f_Lang009 =	&Programmare Le Macro
-	f_Lang010 =	&Variabili di lista
-	f_Lang011 =	&Uscita
+	f_Lang010 =	&Elenco Variabili
+	f_Lang011 =	&Chiudi
 	f_Lang012 =	Nessun f&ile
 		
 ; 03. Macro Sub Menu		
@@ -33,12 +33,12 @@
 	r_Lang002 =	&Opzioni di Registrazione
 	r_Lang003 =	&Attiva macro
 	r_Lang004 =	O&pzioni di riproduzione
-	r_Lang005 =	&Gioca Macro corrente
+	r_Lang005 =	&Esegui Macro corrente
 	r_Lang006 =	&Timer
 	r_Lang007 =	&Disattivare Macro
-	r_Lang008 =	G&ioca da riga selezionata
-	r_Lang009 =	Gio&ca fino a riga selezionata
-	r_Lang010 =	Gioca rig&he selezionate
+	r_Lang008 =	R&iproduci da riga selezionata
+	r_Lang009 =	Rip&roduci fino a riga selezionata
+	r_Lang010 =	Riproduci rig&he selezionate
 	r_Lang011 =	Ta&sti di scelta rapida sensibili al contesto
 	r_Lang012 =	Aggi&ungi Macro
 	r_Lang013 =	Chiud&ere Macro
@@ -134,7 +134,7 @@
 	v_Lang017 =	Modificare
 	v_Lang018 =	Op&zioni
 	v_Lang019 =	Persona&lizzare
-	v_Lang020 =	&Giocare
+	v_Lang020 =	&Riprodurre
 	v_Lang021 =	&Manuale
 	v_Lang022 =	&Arresto
 	v_Lang023 =	&Pausa
@@ -162,7 +162,7 @@
 	o_Lang004 =	&Catturare pressioni di tasti in questa finestra
 	o_Lang005 =	&Tasti Di Scelta Rapida Sempre Attivi
 	o_Lang006 =	&opzioni di spegnimento (Quando termina la riproduzione...)
-	o_Lang007 =	A&ggiungere la chiave di Windows per "giocare" hotkey
+	o_Lang007 =	A&ggiungere il tasto Windows per alla combinazione da "riprodurre"
 	o_Lang008 =	&Utilizzare un tasto del joystick come tasto di scelta rapida
 	o_Lang009 =	I&mposta come tasti di scelta rapida predefiniti
 	o_Lang010 =	Im&posta come file predefinito
@@ -203,7 +203,7 @@
 	w_Lang002 =	Anteprima
 	w_Lang003 =	Opzioni
 	w_Lang004 =	Registrazione
-	w_Lang005 =	Giocare
+	w_Lang005 =	Riprodurre
 	w_Lang006 =	Riproduzione
 	w_Lang007 =	Manuale
 	w_Lang008 =	Arresto
@@ -247,7 +247,7 @@
 	w_Lang046 =	Impostazioni (Ctrl + Virgola)
 	w_Lang047 =	Registra macro (Ctrl+R)
 	w_Lang048 =	Attiva macro (Ctrl+Invio)
-	w_Lang049 =	Esegui Macro corrente (Ctrl+Maiusc+Invio)
+	w_Lang049 =	Riproduci Macro corrente (Ctrl+Maiusc+Invio)
 	w_Lang050 =	Timer (Ctrl+Maiusc+T)
 	w_Lang051 =	Mouse (F2)
 	w_Lang052 =	Testo (F3)
@@ -258,7 +258,7 @@
 	w_Lang057 =	Wait Chiave (Ctrl+F5)
 	w_Lang058 =	Finestra (F6)
 	w_Lang059 =	Immagine / Pixel Search / Immagine in testo (F7)
-	w_Lang060 =	Eseguire / File / String / Misc. (F8)
+	w_Lang060 =	Riprodurre / File / String / Misc. (F8)
 	w_Lang061 =	Loop (F9)
 	w_Lang062 =	Andare A / Etichetta (Shift + F9)
 	w_Lang063 =	Impostare Il Timer (Ctrl + F9)
@@ -307,7 +307,7 @@
 	w_Lang106 =	Aggiungere Return (Ctrl+Shift+N)
 	w_Lang107 =	Convertire Macro alla funzione (Ctrl+Shift+C)
 	w_Lang108 =	Commentare le righe non controllati
-	w_Lang109 =	Aggiungere la chiave di Windows per "giocare" hotkey
+	w_Lang109 =	Aggiungere il tasto Windows alla combinazione da "riprodurre"
 	w_Lang110 =	Utilizzare un tasto del joystick come tasto di scelta rapida
 	w_Lang111 =	Cerca... (Premere Invio per andare)
 	w_Lang112 =	Nuovo (Ctrl+N)
@@ -322,8 +322,8 @@
 	c_Lang004 =	Controllo
 	c_Lang005 =	Finestra
 	c_Lang006 =	Ricerca immagini
-	c_Lang007 =	Pixel Ricerca
-	c_Lang008 =	Eseguire / File / String / Misc.
+	c_Lang007 =	Ricerca Pixel
+	c_Lang008 =	Riprodurrere / File / String / Misc.
 	c_Lang009 =	Se Dichiarazioni
 	c_Lang010 =	Variabili
 	c_Lang011 =	Funzioni / Metodi di matrice
@@ -367,7 +367,7 @@
 	c_Lang049 =	Imposta testo
 	c_Lang050 =	Aggiungi pausa
 	c_Lang051 =	Message Box
-	c_Lang052 =	Attendere chiave
+	c_Lang052 =	Attesa per il tasto
 	c_Lang053 =	Timeout attesa
 	c_Lang054 =	(Millisecondi) 0 = infinito
 	c_Lang055 =	Comando
@@ -381,7 +381,7 @@
 	c_Lang063 =	Immagine
 	c_Lang064 =	Pixel
 	c_Lang065 =	Fare Screenshot
-	c_Lang066 =	Wait Chiave
+	c_Lang066 =	Attendi tasto
 	c_Lang067 =	Se trovato
 	c_Lang068 =	Se non trovato / Errore
 	c_Lang069 =	variabili di uscita
@@ -439,7 +439,7 @@
 	c_Lang121 =	App 2
 	c_Lang122 =	Scancode
 	c_Lang123 =	Aggiungere
-	c_Lang124 =	Storia chiave
+	c_Lang124 =	Cronologia tasti
 	c_Lang125 =	Digitare un scancode...
 	c_Lang126 =	Codice aggiunto a Virtual List Keys!
 	c_Lang127 =	Digitare un nome per la variabile
@@ -458,7 +458,7 @@
 	c_Lang141 =	Delimitatori:
 	c_Lang142 =	Omettere Personaggi:
 	c_Lang143 =	File Di Input:
-	c_Lang144 =	Chiave Principale\Chiave:
+	c_Lang144 =	Tasto Principale\Tasto:
 	c_Lang145 =	File
 	c_Lang146 =	Chiavi
 	c_Lang147 =	Icona
@@ -492,8 +492,8 @@
 	c_Lang175 =	Continuare
 	c_Lang176 =	Riprova
 	c_Lang177 =	Timeout
-	c_Lang178 =	Imposta ritardo chiave
-	c_Lang179 =	Ritardo chiave
+	c_Lang178 =	Imposta ritardo tasto
+	c_Lang179 =	Ritardo tasto
 	c_Lang180 =	Ritardo casuale
 	c_Lang181 =	Minimo
 	c_Lang182 =	Massimo
@@ -522,7 +522,7 @@
 	c_Lang205 =	Regione
 	c_Lang206 =	(Usare [] per creare array, es .: [10, 20, aVariable, "aString"])
 	c_Lang207 =	Oggetto
-	c_Lang208 =	Nome della chiave
+	c_Lang208 =	Nome del tasto
 	c_Lang209 =	Nome di valore
 	c_Lang210 =	I valori
 	c_Lang211 =	Schieramento
@@ -604,7 +604,7 @@
 	t_Lang020 =	Registra nuova macro
 	t_Lang021 =	Tasti
 	t_Lang022 =	Registrazione
-	t_Lang023 =	Acquisire lo stato chiave (basso / alto)
+	t_Lang023 =	Acquisire lo stato del tasto (premuto / sollevato)
 	t_Lang024 =	Clic del mouse
 	t_Lang025 =	Rotellina del mouse
 	t_Lang026 =	Mouse si sposta
@@ -687,7 +687,7 @@
 	t_Lang103 =	Veloce
 	t_Lang104 =	Mostra / Nascondi barra del titolo
 	t_Lang105 =	Mostra / Nascondi finestra principale
-	t_Lang106 =	Eseguire immediatamente
+	t_Lang106 =	Riprodurre immediatamente
 	t_Lang107 =	Ritardi Casuali
 	t_Lang108 =	Normale
 	t_Lang109 =	Giù
@@ -746,7 +746,7 @@
 	t_Lang162 =	Si è verificato un errore. Il compito non può essere creata.
 	t_Lang163 =	Scheduler
 	t_Lang164 =	Programmare Le Macro
-	t_Lang165 =	Esegui Macro
+	t_Lang165 =	Riproduci Macro
 	t_Lang166 =	File
 	t_Lang167 =	Stringa
 	t_Lang168 =	Richiedi Informazioni
@@ -794,7 +794,7 @@
 	t_Lang210 =	Schede
 	t_Lang211 =	Spazi
 	t_Lang212 =	Azioni di tastiera e mouse
-	t_Lang213 =	Modalità di invio chiave
+	t_Lang213 =	Modalità di invio tasto
 	t_Lang214 =	Tasto del ritardo
 	t_Lang215 =	Ritardo del mouse
 	t_Lang216 =	Ritardo di controllo
@@ -835,7 +835,7 @@
 	d_Lang023 =	Messaggio
 	d_Lang024 =	Carica impostazioni predefinite?
 	d_Lang025 =	Macro attivate.
-		Utilizzare i tasti di scelta rapida per giocare.
+		Utilizzare i tasti di scelta rapida per riprodurre.
 	d_Lang026 =	per avviare / fermare la registrazione
 	d_Lang027 =	Registrazione interrotta
 	d_Lang028 =	Registrazione...
@@ -860,8 +860,8 @@
 	d_Lang044 =	Questa funzione richiede la funzione Eval().
 		Fare clic su OK per andare alla pagina di download.
 	d_Lang045 =	Si prega di selezionare una finestra di Internet Explorer!
-	d_Lang046 =	Collegamento di successo!
-	d_Lang047 =	Impossibile eseguire la connessione!
+	d_Lang046 =	Connessione riuscita!
+	d_Lang047 =	Impossibile connettersi!
 	d_Lang048 =	Inserire una maniglia e un CLSID.
 	d_Lang049 =	Etichetta Nome non valido.
 	d_Lang050 =	Duplica Label.
@@ -967,7 +967,7 @@
 		Quasi tutti i comandi e la funzione accetta e uscite variabili. È possibile assegnare le proprie variabili nelle variabili di Windows (i comandi> Variabili / array). Per utilizzare al loro interno i comandi racchiudono il nome della variabile tra segni di percentuale, ad es .:% MyVar%. Nelle funzioni, usarli senza segni di percentuale, ad es .: substr (MyVar, 5).
 		Right-Click ovunque nella finestra di comando per inserire facilmente le variabili built-in da un elenco.
 		Per utilizzare il registratore per le attività rapide andare su Opzioni> Impostazioni> Registrazione e selezionare l'opzione "Cancella elenco". Quindi fare clic sul pulsante Record nella finestra principale e usare F10 per cancellare l'attuale Macro e iniziarne uno nuovo con lo stesso tasto di scelta rapida. È inoltre possibile selezionare l'opzione "sempre attivo" nella finestra principale per mantenere Registrazione e riproduzione tasti di scelta rapida attiva.
-		PMC supporta gli oggetti ei metodi Array, proprio come gli script AutoHotkey. È possibile creare array in molti modi, il più comune è andare alla finestra Variabili, selezionando l'opzione "Expression" e che racchiude i valori tra parentesi, ad es .: [10, 20, Var, "stringa"]. È inoltre possibile creare le chiavi di nome, ad es .: {Keya: Vara "qualche chiave": "valore stringa"}.
+		PMC supporta gli oggetti ei metodi Array, proprio come gli script AutoHotkey. È possibile creare array in molti modi, il più comune è andare alla finestra Variabili, selezionando l'opzione "Expression" e che racchiude i valori tra parentesi, ad es .: [10, 20, Var, "stringa"]. È inoltre possibile creare nomi per i tasti, ad es .: {Keya: Vara "qualche tasto": "valore stringa"}.
 		Funzioni utilizzano la sintassi delle espressioni AHK. stringhe letterali devono essere racchiuse tra virgolette, e le variabili non hanno bisogno di segni di percentuale. È possibile utilizzare altre funzioni o elementi di un array come parametri. Es .: StrReplace (MyVar, MyArray [ "A"], substr (othervar, 2, 3)).
 		Le espressioni sono supportati in AutoHotkey Expression Syntax. Per usare un'espressione all'interno di un parametro di comando, inizia con un segno di percentuale, ad es .:% substr (Var, 5).
 		Il contatore "loop" in alto imposta il numero totale di cicli per Macro selezionato.
@@ -979,8 +979,8 @@
 		Fare doppio clic sull'icona nella barra tasti di scelta rapida per attivare o interrompere la riproduzione / registrazione. Fare clic su di esso con il tasto centrale durante la riproduzione o la registrazione per mettere in pausa.
 		È possibile esportare le macro di script AutoHotkey di lavoro o stand-alone eseguibili dalla finestra di esportazione.
 		Per registrare e riprodurre mouse usando le coordinate assolute andare su Opzioni> Impostazioni> Impostazioni predefinite e mouse coordinate allo schermo.
-		È possibile aprire, copiare, spostare o eliminare file e cartelle utilizzando uno dei comandi in Comandi> Esegui / file / String / Varie. Ci sono molti altri comandi utili, come StringReplace, InputBox e MouseGetPos.
-		Per registrare Down e Up stato di ogni movimento chiave per Opzioni> Impostazioni> Registrazione e controllare "Cattura stato chiave (/ Up Down)" opzione.
+		È possibile aprire, copiare, spostare o eliminare file e cartelle utilizzando uno dei comandi in Comandi> Riprouci / File / String / Varie. Ci sono molti altri comandi utili, come StringReplace, InputBox e MouseGetPos.
+		Per registrare ogni movimento dei tasti andare su Opzioni> Impostazioni> Registrazione e controllare l'opzione "Cattura stato tasto (Premuto / Sollevato)".
 		È possibile utilizzare tasti di scelta rapida per accelerare o rallentare la riproduzione. Vai a Opzioni> Impostazioni> Riproduzione per impostare le chiavi e la velocità.
 		Per regolare la zona di cattura tramite funzione "Fai la Schermata" andare su Opzioni> Impostazioni> Screenshots e selezionare "Premere Invio per Capture". Dopo aver disegnato le frecce di controllo utilizzo rettangolo + per spostare la selezione e Maiusc + tasti freccia per ridimensionarla.
 		Selezione rapida: Selezionare una riga e fare clic su una colonna per selezionare le righe simili in base al testo della cella da quella colonna.
